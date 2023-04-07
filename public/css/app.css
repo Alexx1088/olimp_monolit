@@ -5,9 +5,15 @@
     padding: 0 35px;
   }
 
-.header_container {
+.flex {
     display: flex;
+}
+
+.space-between {
     justify-content: space-between;
+}
+
+.items-center {
     align-items: center;
 }
 
@@ -20,9 +26,103 @@
     border-radius: 0 0 20px 20px;
     margin-top: 100px;
     height: 125px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
 }
 
 .header__address {
     max-width: 455px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header__phone {
+    max-width: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__phone-number {
+    color: #23a4f5;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.text_sf {
+    font-family: "sf", sans-serif;
+}
+
+.text_sf_regular {
+    font-family: "sf_regular", sans-serif;
+    font-size: 25px;
+}
+
+.text_gradient {
+    background: linear-gradient(158deg, #1493fa 0%, #8ac9fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.text_analyzes {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 120px;
+}
+
+.button {
+    display: flex;
+    border-radius: 20px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 44px;
+}
+
+.button_green {
+    color: #22bd56 ;
+    border: 2px solid #22bd56;
+}
+
+.button_fill_blue {
+    color: #FFFFFF;
+    background: linear-gradient(126deg, #1493FA 0%, #8AC9FC 100%);
+    border-radius: 20px;
+}
+
+.button_blue {
+    color: #23a4f5;
+    border: 2px solid #23a4f5;
+}
+
+.section {
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.section__address {
+    margin-top: 60px;
+    max-width: 385px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: "sf";
+    font-style: normal;
+    font-weight: 400;
+    src: local("sf"),
+url("../fonts/SFProDisplay-Medium.woff2") format("woff2");
 }
