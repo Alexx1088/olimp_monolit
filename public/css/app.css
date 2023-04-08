@@ -87,7 +87,7 @@
     line-height: 120px;
 }
 
-.text_action{
+.text_action {
     font-family: Arial;
     font-size: 30px;
     font-weight: 600;
@@ -127,7 +127,7 @@
 
 .button_whatsapp {
     font-size: 18px;
-    font-family: 'sf',Arial,sans-serif;
+    font-family: 'sf', Arial, sans-serif;
     line-height: 1.55;
     font-weight: 400;
 }
@@ -158,4 +158,22 @@
     font-weight: 400;
     src: local("sf"),
     url("../fonts/sf/SFProDisplay-Medium.woff2") format("woff2")
+}
+
+.block {
+    border-radius: 30px 30px 30px 30px;
+    background: #ef4444;
+    width: 358px;
+    height: 267px;
+    position: relative;
+}
+
+.block_text {
+    margin: 35px 0 0 27px;
+}
+
+.block_image {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
 }

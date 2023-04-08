@@ -29,7 +29,7 @@
 
         <div class="section__address ">
             <a href="#" class="button button_fill_blue text_sf_regular ">Анализы</a>
-            <a href="#" class="button button_blue text_sf_regular" >Как проехать</a>
+            <a href="#" class="button button_blue text_sf_regular">Как проехать</a>
         </div>
         <div class="container  text_sf_regular container_properties">
             <p><b>3000+</b><br>видов анализов</p>
@@ -40,16 +40,29 @@
 </section>
 
 <div class="container">
-    <div class="text_gradient text_action"> <p>Акции</p></div>
+    <div class="text_gradient text_action"><p>Акции</p></div>
 </div>
 
 <div class="container flex space-between ">
-
     <div><img src="{{ asset('images/discount.png') }}" alt="discount"></div>
-    <div><img src="{{ asset('images/consultation.png') }}" alt="discount"></div>
+    <div><img src="{{ asset('images/consultation.png') }}" alt="consultation"></div>
 </div>
 
-<div></div>
+<div class="container">
+    <div class="text_gradient text_action"><p>У нас вы получите:</p></div>
+</div>
+
+<div class="container flex space-between">
+    <div class="block">
+        <p class="text_gradient text_sf_regular block_text ">Доступные<br> цены</p>
+        <div class="block_image"><img src="{{ asset('images/union.png') }}" alt="union"></div>
+    </div>
+    <div class="block"><p class="text_gradient text_sf_regular block_text ">5%<br>скидки<br>пенсионерам</p>
+        <div class="block_image"><img src="{{ asset('images/percent.png') }}" alt="percent"></div>
+    </div>
+    <div class="block"> <p class="text_gradient text_sf_regular block_text ">Доступные<br> цены</p>
+        <div class="block_image"> <img class="block_image" src="{{ asset('images/union.png') }}" alt="union"></div></div>
+</div>
 
 
 </body>
